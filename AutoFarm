@@ -66,28 +66,6 @@ local GameList = {
 	["9875383684"] = { id = "e29724bc620c1a6d1a45818c4f71b1d0", keyless = false } -- Be a Brainrot
 }
 
-local Config = {
-	File = "solixhub/savedkey.txt",
-	Title = "Solix Hub Free 15+ Games",
-	Description = "Lifetime key access is available for a one time payment of $15 via solixhub.com",
-	Linkvertise = "https://ads.luarmor.net/get_key?for=Solix_Hub_Linkvertise-OWlLHDMCHADk",
-	Rinku = "https://ads.luarmor.net/get_key?for=Solix_Hub_Rinku-pqJCGTqnTsng",
-	Discord = "https://discord.gg/solixhub",
-	Shop = "https://solixhub.com/",
-}
-
-local ErrorMessages = {
-	KEY_EXPIRED = "Your key has expired. Please renew it to continue.",
-	KEY_BANNED = "This key has been blacklisted. Contact support for assistance.",
-	KEY_INCORRECT = "The provided key is incorrect or no longer valid.",
-	KEY_INVALID = "Invalid key format. Please check your key and try again.",
-	SCRIPT_ID_INCORRECT = "The provided script ID does not exist or has been removed.",
-	SCRIPT_ID_INVALID = "This script has been deleted by its owner.",
-	SECURITY_ERROR = "Security validation failed (Cloudflare check). Please retry.",
-	TIME_ERROR = "Invalid client time detected. Please sync your system clock.",
-	UNKNOWN_ERROR = "An unknown error occurred. Please contact support."
-}
-
 local GameConfig = GameList[GameId]
 
 if not GameConfig then
